@@ -1,0 +1,165 @@
+.h2{
+    text-align: center;
+}
+ .first{
+    margin-top: 0px;
+    border-radius: 50px;
+
+}
+.second{
+    border-radius: 50px;
+    float: right; 
+}
+.third{
+border-radius: 50px;
+cursor: pointer;
+display: flex;
+margin-left: 100px;
+margin-top: 0px;
+}
+.fourth{
+border-radius: 50px;
+cursor: pointer;
+display: flex;
+
+margin-left: 200px;
+}
+.fifth{
+border-radius: 50px;
+cursor: pointer;
+display: flex;
+float: right;
+  margin-right: 40px;
+   margin-top: 90px; 
+}
+.sixth{
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    margin-top:0px;
+    
+}
+.seventh{
+  border-radius: 50px;
+  cursor: pointer;   
+  display: flex;
+  margin-top: 100px;
+  float: right;
+}
+.eighth{
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    float: right;
+    margin-top: 50px;
+    margin-right: 120px;
+
+}
+.ninth{
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.tenth{
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    float: right;
+    margin-top: 80px;
+    margin-right: 60px;
+} 
+.parent{
+    background-color:rgb(34, 33, 33);
+   
+}
+.first:hover{
+ opacity: 0.5; 
+ cursor: pointer;
+}
+.second:hover{
+    opacity: 0.5;
+}
+.third:hover{
+    opacity:0.5;
+}
+.fourth:hover{
+    opacity: 0.5;
+}
+.fifth:hover{
+    opacity: 0.5;
+}
+.sixth:hover{
+    opacity: 0.5;
+}
+.seventh:hover{
+    opacity: 0.5;
+}
+.eighth:hover{
+    opacity: 0.5;
+}
+.ninth:hover{
+    opacity: 0.5;
+}
+.tenth:hover{
+    opacity: 0.5;
+}
+.column {
+    float: left;
+    padding: 10px;
+    height: 90vh; /* Should be removed. Only for demonstration */
+  }
+  
+  .left, .right {
+    width: 25%;
+  }
+  
+  .middle {
+    width: 45%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .container{
+    height: 40vh;
+    width: 80vh;
+    background-color: #fff;
+   margin-top: 25vh;
+   margin-left: 25px;
+  }
+
+  .column1 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 37vh; /* Should be removed. Only for demonstration */
+  }
+  .column2 {
+    float: right;
+    width: 60%;
+    padding: 10px;
+    height: 37vh; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .garg{
+    border-radius: 50px;
+    margin-left: 25px;
+    margin-top: 30px;
+  }
+  .avizva{
+    height: 25px;
+    width: 100px;
+    margin-left: 30px;
+  }
